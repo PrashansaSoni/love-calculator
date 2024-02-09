@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+    <header>
+        <div class="whole">
+    <div class="love">LOVE CALCULATOR</div>
+    <div class="flex">
+    <input type = "text" id="name" class="inputtext" placeholder="Your name">
+    <div class="add"> + </div>
+    <input type = "text" id="lname" class="inputtext" placeholder="Love name">
+    </div>
+    <br>
+    <button class="buttons" onclick="checklove()">click Me</button>
+    <br>
+    <input type="text" class ="percent" id="lovetest" placeholder="love Percent">
+    <br>
+    <div class="blessings">God Bless Your Realtionship</div>
+        </div>
+    </header>
+    <script>
+        function checklove(){
+            var name= document.getElementById('name').value;
+            var lname = document.getElementById('lname').value;
+            if(name==""){
+                alert('Please Enter Your name');
+
+            }
+            else if(name.length<=2){
+                alert('minimum length is 3');
+            }
+            else if(!isNaN(name)){
+                alert('Numbers are not allowed');
+            }
+            var lovedata = Math.floor(Math.random()*100);
+            document.getElementById("lovetest").value = lovedata + "%";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.love{
+    text-align: center;
+    color:rgb(0, 255, 13);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: lightcoral;
+}
+.flex{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    border-radius: 50%;
+   
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/64/71/1d/64711d15056ed1a24f12c3af0c10cdba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.blessings{
+    text-align: center;
+    background-color: lightcoral;
+    font-size: 25px;
+    font-weight: bold;
+    font-size: italic;
+}
+.buttons{
+    display:block;
+   margin:auto;
+    font-size: 15px;
+    color: black;
+   font-weight: bold;
+    cursor:pointer;
+    opacity: 0.5;
+    background-color: green;
+    
+}
+.percent{
+    display:block;
+    margin:auto;
+    
+  
+}
+header{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.whole{
+    background-color: lightseagreen;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
