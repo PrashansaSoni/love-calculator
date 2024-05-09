@@ -38,6 +38,9 @@
             else if(!isNaN(name)){
                 alert('Numbers are not allowed');
             }
+            else if(lname==""){
+                alert("Please Enter your love name");
+            }
             var lovedata = Math.floor(Math.random()*100);
             document.getElementById("lovetest").value = lovedata + "%";
         }
